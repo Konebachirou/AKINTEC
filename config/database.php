@@ -30,12 +30,10 @@ return [
     */
 
     'connections' => [
-
+        
         'null' => [
-            'driver' => 'sqlite',
-            'database' => ':memory:',
-            'prefix' => '',
-        ],
+                'driver' => 'null',
+            ],
 
         'sqlite' => [
             'driver' => 'sqlite',

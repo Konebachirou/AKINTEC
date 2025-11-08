@@ -141,6 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const formData = new FormData(form);
         errorDiv.style.display = "none";
+        form.querySelector('input[name="nomEmail"]').value = '';
 
         fetch(contactSendUrl, {
             method: "POST",

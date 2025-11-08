@@ -21,7 +21,6 @@
                         <p><a href="tel:+33753303635">+33 7 53 30 36 35</a></p>
                         <p><a href="tel:+33753303635">+33 7 53 30 36 35</a></p>
                         <p><a href="tel:+33753303635">+33 7 53 30 36 35</a></p>
-                        <p><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> text</a></p>
                     </div>
                 </div>
             </div>
@@ -128,71 +127,71 @@
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const form = document.getElementById("contact-form");
-        const errorDiv = document.getElementById("form-error");
-        const contactSendUrl = "{{ route('contact_send') }}";
-        const submitBtn = document.getElementById("submit");
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contact-form");
+    const errorDiv = document.getElementById("form-error");
+    const contactSendUrl = "{{ route('contact_send') }}";
+    const submitBtn = document.getElementById("submit");
 
-        form.addEventListener("submit", function (e) {
-            e.preventDefault();
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
 
-            const formData = new FormData(form);
-            errorDiv.style.display = "none";
+        const formData = new FormData(form);
+        errorDiv.style.display = "none";
 
-            fetch(contactSendUrl, {
-                method: "POST",
-                headers: {
-                    "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value,
-                },
-                body: formData,
-            })
-            .then(response => {
-                submitBtn.disabled = false;
-                submitBtn.classList.remove('loading');
-                if (!response.ok) throw new Error("Erreur serveur (" + response.status + ")");
-                return response.json();
-            })
-            .then(data => {
-                if (data.success) {
-                    // On réinitialise le formulaire
-                    form.reset();
-                    // On affiche le modal de confirmation
-                    const modal = new bootstrap.Modal(document.getElementById("exampleModal"));
-                    modal.show();
-                } else {
-                    errorDiv.textContent = data.message || "Une erreur est survenue.";
-                    errorDiv.style.display = "block";
-                }
-            })
-            .catch(error => {
-                submitBtn.disabled = false;
-                submitBtn.classList.remove('loading');
-                errorDiv.textContent = "Impossible d’envoyer le message. Vérifiez votre connexion ou réessayez plus tard.";
+        fetch(contactSendUrl, {
+            method: "POST",
+            headers: {
+                "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value,
+            },
+            body: formData,
+        })
+        .then(response => {
+            submitBtn.disabled = false;
+        submitBtn.classList.remove('loading');
+        if (!response.ok) throw new Error("Erreur serveur (" + response.status + ")");
+            return response.json();
+        })
+        .then(data => {
+            if (data.success) {
+                // On réinitialise le formulaire
+                form.reset();
+                // On affiche le modal de confirmation
+                const modal = new bootstrap.Modal(document.getElementById("exampleModal"));
+                modal.show();
+            } else {
+                errorDiv.textContent = data.message || "Une erreur est survenue.";
                 errorDiv.style.display = "block";
-                console.error(error);
-            });
+            }
+        })
+        .catch(error => {
+                submitBtn.disabled = false;
+                submitBtn.classList.remove('loading');
+            errorDiv.textContent = "Impossible d’envoyer le message. Vérifiez votre connexion ou réessayez plus tard.";
+            errorDiv.style.display = "block";
+            console.error(error);
         });
     });
+});
 </script>
 <style>
-    .alert {
-    padding: 12px 20px;
-    border-radius: 8px;
-    margin-top: 15px;
-    font-size: 0.95rem;
-    transition: all 0.3s ease;
-    }
-    .alert.hidden {
-    opacity: 0;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    }
-    .alert.error {
-    background-color: #ffe5e5;
-    border: 1px solid #ff5c5c;
-    color: #a70000;
-    }
+.alert {
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+.alert.hidden {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.alert.error {
+  background-color: #ffe5e5;
+  border: 1px solid #ff5c5c;
+  color: #a70000;
+}
 </style>
 @stop

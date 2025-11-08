@@ -30,16 +30,16 @@ class ContactController extends Controller
                 'email' => $request->email,
                 'phone' => $request->phone,
                 'sujet' => $request->subject,
-                'message' => $request->message,
+                'msg' => $request->message,
             ];
 
             Mail::send('emails.contact', $data, function ($message) use ($data) {
-                $message->to('essa@test.com') // ton adresse de réception
-                        ->subject('📩 Nouveau message du site AKINTEC : ' . $data['sujet']);
+                $message->to(env('MAIL_FROM_ADDRESS')) 
+                ->subject('📩 Nouveau message du site AKINTEC : ' . $data['sujet']);
             });
 
             return response()->json(['success' => true]);
-            
+
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,

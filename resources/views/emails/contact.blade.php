@@ -8,4 +8,4 @@
 <hr>
 
 <p><strong>Message :</strong></p>
-<p>{{ $message }}</p>
+<p>{{ $msg }}</p>

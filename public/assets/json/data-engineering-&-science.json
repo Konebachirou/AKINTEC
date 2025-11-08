@@ -1,0 +1,62 @@
+{
+  "title": "Data Engineering & Data Science",
+  "subtitle": "Transformez vos données en leviers de performance et d’innovation",
+  "presentation": [
+    "Nous aidons les entreprises à valoriser leurs données en concevant des architectures modernes, des pipelines robustes et des modèles d’intelligence artificielle à fort impact. Notre expertise couvre toute la chaîne de valeur de la donnée : de la collecte à la visualisation en passant par l’analyse prédictive.",
+    "Nos équipes combinent la rigueur du data engineering à la puissance du machine learning pour fournir des solutions concrètes et mesurables. Nous mettons la technologie au service de la décision, de l’automatisation et de la performance.",
+    "Notre accompagnement s’adapte à tous les niveaux de maturité : de la mise en place d’une infrastructure data jusqu’à l’industrialisation de modèles IA à grande échelle."
+  ],
+  "expertises": [
+    {
+      "title": "Data Engineering",
+      "description": "Nous construisons des pipelines de données performants et scalables pour collecter, transformer et diffuser vos données en temps réel.",
+      "details": [
+        "Conception et automatisation des pipelines ETL/ELT",
+        "Infrastructures cloud (AWS, GCP, Azure, Snowflake)",
+        "Traitement batch et streaming (Kafka, Spark, Airflow)",
+        "Qualité, sécurité et gouvernance des données"
+      ]
+    },
+    {
+      "title": "Data Science",
+      "description": "Nous exploitons vos données pour créer des modèles prédictifs et prescriptifs qui soutiennent la décision et l’innovation.",
+      "details": [
+        "Machine Learning et Deep Learning (scikit-learn, TensorFlow, PyTorch)",
+        "Prévisions, scoring, segmentation, détection d’anomalies",
+        "NLP, computer vision et analyse de sentiment",
+        "Industrialisation et monitoring des modèles (MLOps)"
+      ]
+    },
+    {
+      "title": "Data Visualization",
+      "description": "Nous concevons des dashboards interactifs et visuellement percutants pour faciliter la compréhension et la prise de décision.",
+      "details": [
+        "Création de tableaux de bord avec Power BI, Tableau, Metabase",
+        "Design d’indicateurs pertinents et lisibles",
+        "Suivi de la performance et automatisation du reporting"
+      ]
+    }
+  ],
+  "methodology": [
+    "Audit des sources et des besoins métiers",
+    "Conception de l’architecture data et choix technologiques",
+    "Mise en place des pipelines et traitements",
+    "Analyse exploratoire et modélisation prédictive",
+    "Visualisation et restitution des insights",
+    "Industrialisation et amélioration continue"
+  ],
+  "case_studies": [
+    {
+      "client": "Retail Insight",
+      "project": "Mise en place d’un data lake et d’un moteur de recommandation produit",
+      "results": "Hausse de 25% du panier moyen et réduction de 15% des ruptures de stock"
+    }
+  ],
+  "why_choose_us": [
+    "Expertise complète du data engineering à la data science",
+    "Approche pragmatique et orientée ROI",
+    "Maîtrise des principales plateformes cloud",
+    "Culture de la qualité, de la sécurité et de la gouvernance"
+  ],
+  "cta": "Faites parler vos données avec nos experts"
+}

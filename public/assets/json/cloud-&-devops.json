@@ -1,0 +1,59 @@
+{
+  "title": "Cloud & DevOps",
+  "subtitle": "Industrialisez vos déploiements et gagnez en agilité avec le Cloud",
+  "presentation": [
+    "Nos ingénieurs cloud et DevOps accompagnent les entreprises dans la conception, la migration et l’optimisation de leurs infrastructures cloud. Nous garantissons des solutions performantes, sécurisées et adaptées à vos enjeux métiers.",
+    "Nous combinons expertise en architecture cloud et pratiques DevOps pour automatiser vos déploiements, accélérer vos cycles de livraison et renforcer la fiabilité de vos environnements.",
+    "Notre mission : vous permettre de tirer pleinement parti du cloud tout en assurant un haut niveau de sécurité, de disponibilité et de maîtrise des coûts."
+  ],
+  "expertises": [
+    {
+      "title": "Architecture Cloud",
+      "description": "Conception d’architectures cloud performantes, évolutives et sécurisées.",
+      "details": [
+        "Infrastructure as Code (Terraform, Ansible)",
+        "Load balancing, autoscaling et haute disponibilité",
+        "Architectures hybrides et multi-cloud"
+      ]
+    },
+    {
+      "title": "Migration Cloud",
+      "description": "Migration maîtrisée de vos applications et données vers AWS, Azure ou GCP.",
+      "details": [
+        "Audit de l’existant et plan de migration",
+        "Replatforming, refactoring ou lift-and-shift",
+        "Sécurisation et optimisation post-migration"
+      ]
+    },
+    {
+      "title": "DevOps & Automatisation",
+      "description": "Automatisez vos déploiements et gagnez en réactivité.",
+      "details": [
+        "Pipelines CI/CD (GitLab CI, Jenkins, GitHub Actions)",
+        "Containerisation (Docker, Kubernetes)",
+        "Monitoring et observabilité (Prometheus, Grafana)"
+      ]
+    }
+  ],
+  "methodology": [
+    "Audit et cadrage de l’environnement existant",
+    "Définition d’une architecture cible et choix technologiques",
+    "Mise en œuvre des bonnes pratiques DevOps",
+    "Migration et déploiement progressif",
+    "Optimisation continue de la performance et des coûts"
+  ],
+  "case_studies": [
+    {
+      "client": "SaaS Connect",
+      "project": "Migration vers AWS avec automatisation complète des déploiements",
+      "results": "Réduction de 35% du temps de mise en production et amélioration de la disponibilité à 99,99%"
+    }
+  ],
+  "why_choose_us": [
+    "Experts certifiés AWS, Azure et GCP",
+    "Pratique DevOps intégrée à chaque projet",
+    "Sécurité et conformité by design",
+    "Approche orientée performance et agilité"
+  ],
+  "cta": "Modernisez votre infrastructure avec nos experts cloud"
+}

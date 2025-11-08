@@ -1,0 +1,59 @@
+{
+  "title": "Conseil IT & Transformation Digitale",
+  "subtitle": "Accélérez votre performance grâce à une stratégie technologique claire et durable",
+  "presentation": [
+    "Nous accompagnons les entreprises dans la définition, la structuration et la mise en œuvre de leur stratégie IT. Notre objectif : faire de la technologie un levier de performance et d’innovation, pas une contrainte.",
+    "Nos consultants allient expertise technique et compréhension des enjeux métiers pour vous aider à prendre les bonnes décisions, piloter vos projets IT et réussir votre transformation digitale.",
+    "De la modernisation des infrastructures à la refonte des processus métiers, nous intervenons avec pragmatisme et méthodologie pour garantir des résultats concrets et mesurables."
+  ],
+  "expertises": [
+    {
+      "title": "Conseil Stratégique IT",
+      "description": "Nous aidons les directions IT à aligner leur feuille de route technologique sur les objectifs business.",
+      "details": [
+        "Audit complet du système d’information",
+        "Définition de la stratégie et du schéma directeur IT",
+        "Optimisation de la gouvernance et des processus"
+      ]
+    },
+    {
+      "title": "Transformation Digitale",
+      "description": "Nous pilotons la digitalisation de vos processus et la modernisation de vos outils collaboratifs.",
+      "details": [
+        "Feuille de route de transformation et cadrage",
+        "Automatisation des processus (RPA, intégration API)",
+        "Accompagnement au changement et montée en compétence"
+      ]
+    },
+    {
+      "title": "Modernisation Applicative",
+      "description": "Nous vous accompagnons dans la migration de vos systèmes legacy vers des solutions modernes, cloud et sécurisées.",
+      "details": [
+        "Audit des applications existantes",
+        "Définition de l’architecture cible",
+        "Plan de migration et intégration progressive"
+      ]
+    }
+  ],
+  "methodology": [
+    "Audit de l’existant et identification des leviers de transformation",
+    "Définition d’une vision claire et priorisée",
+    "Co-construction du plan d’action avec vos équipes",
+    "Pilotage agile et accompagnement continu",
+    "Mesure de la performance et ajustements"
+  ],
+  "case_studies": [
+    {
+      "client": "AssurNet",
+      "project": "Refonte de la stratégie IT et migration vers une architecture cloud hybride",
+      "results": "Amélioration de 40% de la disponibilité des systèmes et réduction de 25% des coûts d’exploitation"
+    }
+  ],
+  "why_choose_us": [
+    "Consultants expérimentés en IT et transformation digitale",
+    "Vision stratégique et exécution pragmatique",
+    "Approche humaine centrée sur la conduite du changement",
+    "Résultats concrets et mesurables"
+  ],
+  "cta": "Accélérez votre transformation digitale avec nos experts"
+}

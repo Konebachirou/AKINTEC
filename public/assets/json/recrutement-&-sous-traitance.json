@@ -1,0 +1,59 @@
+{
+  "title": "Recrutement & Sous-Traitance IT",
+  "subtitle": "Accédez rapidement aux meilleurs talents tech, en interne ou en mission externalisée",
+  "presentation": [
+    "Nous accompagnons les entreprises dans la recherche, la sélection et la mise à disposition de profils IT qualifiés. Que ce soit pour un recrutement permanent ou une mission externalisée, nous mettons notre réseau et notre expertise au service de votre croissance.",
+    "Nos équipes RH spécialisées dans la tech comprennent vos enjeux et vos contraintes. Nous sélectionnons des profils qui allient compétences techniques, savoir-être et adéquation culturelle.",
+    "Grâce à notre offre de sous-traitance, nous pouvons également mobiliser nos propres experts pour renforcer vos équipes ou piloter des projets clés en main."
+  ],
+  "expertises": [
+    {
+      "title": "Recrutement de Talents IT",
+      "description": "Identification, évaluation et recrutement des meilleurs profils techniques du marché.",
+      "details": [
+        "Sourcing sur LinkedIn, GitHub, Slack, etc.",
+        "Entretiens techniques réalisés par nos ingénieurs",
+        "Accompagnement RH complet jusqu’à l’intégration"
+      ]
+    },
+    {
+      "title": "Sous-Traitance et Régie",
+      "description": "Mise à disposition rapide de ressources expertes pour vos projets à court ou long terme.",
+      "details": [
+        "Renfort d’équipe ou externalisation complète",
+        "Profils : développeurs, data engineers, DevOps, chefs de projet, etc.",
+        "Pilotage et suivi de mission par nos managers techniques"
+      ]
+    },
+    {
+      "title": "Partenariat Long Terme",
+      "description": "Nous construisons des relations durables basées sur la confiance et la performance.",
+      "details": [
+        "Engagement sur la qualité des livrables",
+        "Flexibilité contractuelle et transparence totale",
+        "Accompagnement RH et technique continu"
+      ]
+    }
+  ],
+  "methodology": [
+    "Analyse du besoin et du contexte de l’entreprise",
+    "Recherche proactive et présélection des candidats",
+    "Entretiens techniques et validation interne",
+    "Présentation des meilleurs profils et accompagnement à l’embauche",
+    "Suivi post-intégration et fidélisation des talents"
+  ],
+  "case_studies": [
+    {
+      "client": "TechWave",
+      "project": "Mise à disposition de 8 développeurs full-stack en régie pour un projet e-commerce",
+      "results": "Délai de recrutement divisé par 3 et satisfaction client de 98%"
+    }
+  ],
+  "why_choose_us": [
+    "Réseau étendu de talents IT qualifiés",
+    "Combinaison de recrutement et sous-traitance",
+    "Sélection technique rigoureuse",
+    "Accompagnement humain et flexible"
+  ],
+  "cta": "Renforcez vos équipes dès aujourd’hui"
+}

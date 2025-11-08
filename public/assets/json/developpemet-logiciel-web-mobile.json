@@ -1,0 +1,73 @@
+{
+  "title": "Développement Web, Mobile et Logiciel",
+  "subtitle": "Nous créons des applications sur mesure, performantes et évolutives",
+  "presentation": [
+    "Notre équipe conçoit et développe des applications web, mobiles et logicielles robustes, adaptées aux besoins spécifiques de chaque client. Nous allions expertise technique et compréhension métier pour livrer des solutions fiables, ergonomiques et à forte valeur ajoutée.",
+    "Nous accompagnons les entreprises dans la conception, le développement et la maintenance de leurs outils digitaux : applications SaaS, plateformes métiers, portails clients, ERP, CRM ou applications mobiles natives et hybrides.",
+    "Chaque projet est mené selon une approche agile, itérative et orientée résultat. Nous intégrons les meilleures pratiques de développement et de sécurité pour garantir la qualité, la performance et la durabilité de vos solutions."
+  ],
+  "expertises": [
+    {
+      "title": "Développement Web",
+      "description": "Nous développons des sites et applications web sur mesure, performants et intuitifs.",
+      "details": [
+        "Développement front-end avec React, Vue.js ou Angular",
+        "Développement back-end avec Laravel, Symfony ou Node.js",
+        "API REST et GraphQL, intégrations tierces et microservices",
+        "Optimisation SEO, accessibilité et performance"
+      ]
+    },
+    {
+      "title": "Applications Mobiles",
+      "description": "Nous concevons des applications mobiles natives et hybrides offrant une expérience fluide et engageante sur iOS et Android.",
+      "details": [
+        "Développement natif (Swift, Kotlin) et cross-platform (Flutter, React Native)",
+        "Applications connectées à vos systèmes métiers via API sécurisées",
+        "Design UX/UI optimisé pour les usages mobiles",
+        "Maintenance et mises à jour continues"
+      ]
+    },
+    {
+      "title": "Logiciels Métier",
+      "description": "Nous créons des logiciels sur mesure pour automatiser vos processus, centraliser vos données et améliorer la productivité.",
+      "details": [
+        "Outils internes, ERP, CRM, tableaux de bord personnalisés",
+        "Applications de gestion et reporting temps réel",
+        "Intégration avec vos outils existants (API, webhooks, middleware)",
+        "Architecture évolutive et sécurisée"
+      ]
+    },
+    {
+      "title": "Maintenance & Support",
+      "description": "Nos équipes assurent la pérennité de vos applications grâce à un accompagnement continu et proactif.",
+      "details": [
+        "Maintenance corrective, évolutive et préventive",
+        "Mise à jour des frameworks et dépendances",
+        "Optimisation continue de la sécurité et de la performance",
+        "Support technique dédié"
+      ]
+    }
+  ],
+  "methodology": [
+    "Analyse fonctionnelle et technique approfondie du besoin",
+    "Conception UX/UI centrée sur l’utilisateur",
+    "Développement agile et itératif (Scrum ou Kanban)",
+    "Tests automatisés, sécurité et performance",
+    "Déploiement et supervision continue",
+    "Maintenance évolutive et accompagnement long terme"
+  ],
+  "case_studies": [
+    {
+      "client": "LogisTech",
+      "project": "Développement d’un logiciel de gestion logistique multi-entrepôts",
+      "results": "Réduction de 30% des erreurs de stock et amélioration de 45% de la productivité des équipes"
+    }
+  ],
+  "why_choose_us": [
+    "Expertise complète : web, mobile et logiciel sur mesure",
+    "Méthodologie agile centrée sur les besoins métier",
+    "Équipe pluridisciplinaire et expérimentée",
+    "Accompagnement durable et transparent"
+  ],
+  "cta": "Discutons de votre futur projet digital"
+}

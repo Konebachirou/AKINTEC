@@ -260,7 +260,7 @@
             <!-- Start Single Team  -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="team">
-                    <div class="thumbnail"><img src="assets/images/team/team-05.jpg" alt="Blog Images">
+                    <div class="thumbnail"><img src="assets/images/team/team-10.jpg" alt="Blog Images">
                     </div>
                     <div class="content">
                         <h4 class="title">SABRINA MOUANDZA</h4>
@@ -278,7 +278,7 @@
             <!-- Start Single Team  -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="team">
-                    <div class="thumbnail"><img src="assets/images/team/team-09.jpg" alt="Blog Images">
+                    <div class="thumbnail"><img src="assets/images/team/team-10.jpg" alt="Blog Images">
                     </div>
                     <div class="content">
                         <h4 class="title">BACHIROU KONE</h4>
@@ -296,7 +296,7 @@
             <!-- Start Single Team  -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="team">
-                    <div class="thumbnail"><img src="assets/images/team/team-03.jpg" alt="Blog Images">
+                    <div class="thumbnail"><img src="assets/images/team/team-10.jpg" alt="Blog Images">
                     </div>
                     <div class="content">
                         <h4 class="title">CHARLOPIN ATSE</h4>
@@ -314,7 +314,7 @@
             <!-- Start Single Team  -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
                 <div class="team">
-                    <div class="thumbnail"><img src="assets/images/team/team-07.jpg" alt="Blog Images">
+                    <div class="thumbnail"><img src="assets/images/team/team-10.jpg" alt="Blog Images">
                     </div>
                     <div class="content">
                         <h4 class="title">ALI COULIBALY</h4>

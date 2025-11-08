@@ -22,5 +22,14 @@ class AccueilController extends Controller
        
         return view('rejoindre', ['ongletActif' => $ongletActif]);
     }
+    
+    public function maintenance()
+    {
+        // Déterminer l'onglet actif
+        $ongletActif = 'maintenance';
+       
+        return view('maintenance', ['ongletActif' => $ongletActif]);
+    }
+    
 
 }

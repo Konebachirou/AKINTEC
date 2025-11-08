@@ -46,7 +46,7 @@
             <div id="form-error" class="text-danger mt-3 text-center" style="display:none;"></div>
             <div class="col-lg-5" >
                 <div class="thumbnail">
-                    <img class="w-100 radius-6" src="assets/images/about/contact.jpg" alt="Contact Images">
+                    <img class="w-100 radius-6" src="assets/images/about/contact.jpeg" alt="Contact Images">
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
 </div>
 
 <div class="rbt-google-map bg-color-white rbt-section-gapTop">
-    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" height="600" style="border:0"></iframe>
+<iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.96769557268!2d2.264633301929685!3d48.858825541861634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1762624636340!5m2!1sfr!2sfr" height="600" style="border:0"></iframe>
 </div>
 
 

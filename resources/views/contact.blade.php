@@ -130,6 +130,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("contact-form");
     const errorDiv = document.getElementById("form-error");
+    const contactSendUrl = "{{ route('contact_send') }}";
 
     form.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -137,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const formData = new FormData(form);
         errorDiv.style.display = "none";
 
-        fetch("{{ route('contact_send') }}", {
+        fetch(contactSendUrl, {
             method: "POST",
             headers: {
                 "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value,

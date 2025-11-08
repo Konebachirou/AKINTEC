@@ -131,6 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("contact-form");
     const errorDiv = document.getElementById("form-error");
     const contactSendUrl = "{{ route('contact_send') }}";
+    const submitBtn = document.getElementById("submit");
 
     form.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -146,9 +147,9 @@ document.addEventListener("DOMContentLoaded", function () {
             body: formData,
         })
         .then(response => {
-            if (!response.ok) {
-                throw new Error("Erreur serveur (" + response.status + ")");
-            }
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('loading');
+            if (!response.ok) throw new Error("Erreur serveur (" + response.status + ")");
             return response.json();
         })
         .then(data => {
@@ -164,6 +165,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         })
         .catch(error => {
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('loading');
             errorDiv.textContent = "Impossible d’envoyer le message. Vérifiez votre connexion ou réessayez plus tard.";
             errorDiv.style.display = "block";
             console.error(error);

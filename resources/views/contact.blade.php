@@ -56,6 +56,9 @@
                     <P>Contactez nos experts pour discuter de vos enjeux technologiques et trouver la solution adaptée à votre entreprise.</P>
                     <form id="contact-form"  class="rainbow-dynamic-form max-width-auto">
                         @csrf
+                        <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+                            <input type="text" name="nomEmail" tabindex="-1" autocomplete="off">
+                        </div>
                         <div class="form-group">
                             <input name="fullname" id="contact-nom" type="text" required>
                             <label>Nom complet</label>
@@ -165,8 +168,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         })
         .catch(error => {
-                submitBtn.disabled = false;
-                submitBtn.classList.remove('loading');
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('loading');
             errorDiv.textContent = "Impossible d’envoyer le message. Vérifiez votre connexion ou réessayez plus tard.";
             errorDiv.style.display = "block";
             console.error(error);

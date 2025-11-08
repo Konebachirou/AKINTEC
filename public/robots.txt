@@ -1,2 +1,13 @@
+# Bloquer tous les robots d'accéder au formulaire de contact
 User-agent: *
-Disallow:
+Disallow: /contact/send
+
+# Autoriser l’accès au reste du site
+User-agent: *
+Allow: /
+
+# Bloquer les dossiers sensibles de Laravel
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /bootstrap/
+Disallow: /node_modules/

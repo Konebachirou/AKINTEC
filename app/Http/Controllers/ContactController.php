@@ -18,6 +18,10 @@ class ContactController extends Controller
 
     public function send(Request $request)
     {
+        if ($request->filled('nomEmail')) {
+            return response()->json(['success' => false, 'message' => 'Bot détecté'], 400);
+        }
+
         $request->validate([
             'fullname' => 'required|string|max:255',
             'email' => 'required|email',

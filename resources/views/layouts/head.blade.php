@@ -3,16 +3,21 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('titre', 'AKINTEC')</title>
     <meta name="robots" content="index, follow">
-    <!--meta name="description"
-        content="L’African Business Club (ABC) a été crée en 2003 par Ibrahim Magassa, aujourd’hui banquier d’état en Côte d’Ivoire. C’est au sein de l’ESCP qu’est né l’association dont la vision
-      est de ”mettre en place un terreau fertile et une source d’appuis pour le développement d’initiatives africaines” L’ABC se veut être un cercle de réflexion qui aide les étudiants Africains à se réunir, à travailler sur des
-      problématiques Africaines et à rentrer en Afrique mener leur
-      projets."-->
+    <meta name="description" content="@yield('description', 'AKINTEC propose des solutions technologiques et innovantes pour les entreprises modernes.')">
+
     <meta property="og:image" content="{{ asset('assets/images/logo/favicon-no-bg.png') }}">
 
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta property="og:title" content="@yield('title', 'AKINTEC')">
+    <meta property="og:description" content="@yield('description', 'AKINTEC propose des solutions technologiques et innovantes pour les entreprises modernes.')">
+    <meta property="og:image" content="{{ asset('assets/images/logo/logo.jpg') }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="African, Africa, Business, Club, Afrique">
-    <meta name="google-site-verification" content="IO1UJll8hlBT41iEMM_K3k--5iUcHacC2emgMr0H2RA" />
+
+    <meta name="keywords" content="@yield('keywords', 'innovation, technologie, développement web, informatique, AKINTEC, solutions digitales')">
+    <meta name="google-site-verification" content="yElaI9rLLHM-sx46aWWS4hoWU7ZFh6NaGMoRCwpHL_Q" />
+    
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo/favicon-no-bg.png') }}">
 

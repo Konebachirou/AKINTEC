@@ -1,4 +1,8 @@
 @extends('layouts.app')
+@section('title', 'Page Contact – AKINTEC')
+@section('description', 'Contactez AKINTEC pour vos projets digitaux et innovants.')
+@section('keywords', 'contact, akintec, projet digital, site web, entreprise tech')
+
 @section('content')
 
 <div class="rbt-conatct-area bg-gradient-13" style="padding-top: 13%; padding-bottom: 5%">

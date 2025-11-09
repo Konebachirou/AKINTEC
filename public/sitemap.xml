@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://akintec.fr</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/Qui-somme-nous</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/services/developpemet-logiciel-web-mobile</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/services/data-engineering-et-science</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/services/cloud-et-devops</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/services/conseil-it-transformation-digital</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/services/recrutement-et-sous-traitance</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/nous-rejoindre</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/contact</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/chttp://akintec.fr/services/data-engineering-et-science</loc>
-</url>
-<url>
-  <loc></loc>
-</url>
-<url>
-  <loc>http://akintec.fr/tel:+33753303635</loc>
-</url>
-<url>
-  <loc>http://akintec.fr/tel:+33758134003</loc>
-</url>
+    <url>
+        <loc>http://akintec.fr</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/Qui-somme-nous</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/services/developpemet-logiciel-web-mobile</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/services/data-engineering-et-science</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/chttp://akintec.fr/services/data-engineering-et-science</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/services/cloud-et-devops</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/services/conseil-it-transformation-digital</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/services/recrutement-et-sous-traitance</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/nous-rejoindre</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://akintec.fr/contact</loc>
+        <priority>1.0</priority>
+    </url>
+</urlset>

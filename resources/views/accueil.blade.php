@@ -67,7 +67,7 @@
                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="{{ route('services_link', ['service' => 'data-engineering-&-science']) }}">
+                                    <a href="{{ route('services_link', ['service' => 'data-engineering-et-science']) }}">
                                         <img src="assets/images/category/image/data5.jpg" alt="Category Images">
                                     </a>
                                 </div>
@@ -75,7 +75,7 @@
                                     <img src="assets/images/shape/data.png" alt="Icons Images">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="c{{ route('services_link', ['service' => 'data-engineering-&-science']) }}">Data engineering & data science</a></h5>
+                                    <h5 class="title"><a href="c{{ route('services_link', ['service' => 'data-engineering-et-science']) }}">Data engineering & data science</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="{{ route('services_link', ['service' => 'cloud-&-devops']) }}">
+                                    <a href="{{ route('services_link', ['service' => 'cloud-et-devops']) }}">
                                         <img src="assets/images/category/image/ops.png" alt="Category Images">
                                     </a>
                                 </div>
@@ -97,7 +97,7 @@
                                     <img src="assets/images/shape/cloud.png" alt="Icons Images">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"><a href="{{ route('services_link', ['service' => 'cloud-&-devops']) }}">Cloud & DevOps</a><br></h5>
+                                    <h5 class="title"><a href="{{ route('services_link', ['service' => 'cloud-et-devops']) }}">Cloud & DevOps</a><br></h5>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
                         <div class="inner">
                         <div class="thumbnail">
-                            <a href="{{ route('services_link', ['service' => 'recrutement-&-sous-traitance']) }}">
+                            <a href="{{ route('services_link', ['service' => 'recrutement-et-sous-traitance']) }}">
                                 <img src="assets/images/category/image/recrute.jpeg" alt="Category Images">
                             </a>
                         </div>
@@ -119,7 +119,7 @@
                             <img src="assets/images/shape/recrutement.png" alt="Icons Images">
                         </div>
                         <div class="content">
-                            <h5 class="title"><a href="{{ route('services_link', ['service' => 'recrutement-&-sous-traitance']) }}">Recrutement & sous-traitance IT</a></h5>
+                            <h5 class="title"><a href="{{ route('services_link', ['service' => 'recrutement-et-sous-traitance']) }}">Recrutement & sous-traitance IT</a></h5>
                         </div>
                     </div>
                 </div>

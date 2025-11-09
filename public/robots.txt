@@ -11,3 +11,5 @@ Disallow: /vendor/
 Disallow: /storage/
 Disallow: /bootstrap/
 Disallow: /node_modules/
+
+Sitemap: https://akintec.fr/sitemap.xml

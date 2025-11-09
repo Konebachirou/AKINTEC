@@ -1,15 +1,40 @@
-# Bloquer tous les robots d'accéder au formulaire de contact
+# ✅ Bloquer tous les robots d'accéder au formulaire de contact
 User-agent: *
 Disallow: /contact/send
 
-# Autoriser l’accès au reste du site
-User-agent: *
-Allow: /
-
-# Bloquer les dossiers sensibles de Laravel
+# ✅ Bloquer les dossiers sensibles de Laravel
 Disallow: /vendor/
 Disallow: /storage/
 Disallow: /bootstrap/
 Disallow: /node_modules/
 
+# ✅ Délai de crawl pour éviter surcharge serveur
+Crawl-delay: 10
+
+# ✅ Autoriser les moteurs de recherche majeurs
+User-agent: Googlebot
+Disallow:
+
+User-agent: googlebot-image
+Disallow:
+
+User-agent: googlebot-mobile
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: Slurp
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: Baiduspider
+Disallow:
+
+User-agent: Yandex
+Disallow:
+
+# ✅ Déclaration du sitemap
 Sitemap: https://akintec.fr/sitemap.xml

@@ -5,13 +5,12 @@
     <meta name="robots" content="index, follow">
     <meta name="description" content="@yield('description', 'AKINTEC propose des solutions technologiques et innovantes pour les entreprises modernes.')">
 
-    <meta property="og:image" content="{{ asset('assets/images/logo/favicon-no-bg.png') }}">
 
     <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="@yield('title', 'AKINTEC')">
     <meta property="og:description" content="@yield('description', 'AKINTEC propose des solutions technologiques et innovantes pour les entreprises modernes.')">
-    <meta property="og:image" content="{{ asset('assets/images/logo/logo.jpg') }}">
     <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('assets/images/logo/favicon-no-bg.png') }}">
     <meta property="og:type" content="website">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

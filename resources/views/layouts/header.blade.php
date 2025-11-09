@@ -178,7 +178,7 @@
                 <div class="content">
                     <div class="logo">
                         <a href="{{ route('home_link') }}">
-                            <img src="{{ asset('assets/images/logo/logo-ak.png') }}" alt="Education Logo Images">
+                            <img src="{{ asset('assets/images/logo/logo-ak.png') }}" alt="AKINTEC Logo Images">
                         </a>
                     </div>
                     <div class="rbt-btn-close">
@@ -198,13 +198,13 @@
 
             <nav class="mainmenu-nav">
                 <ul class="mainmenu">
-                    <li class=" position-static">
-                        <a href="#">Accueil </a>
+                    <li class=" position-static {{ $ongletActif === 'accueil' ? 'active' : '' }}">
+                        <a href="{{ route('home_link') }}">Accueil </a>
                     </li>
-                    <li class=" position-static">
-                        <a href="#">Qui sommes-nous ?</a>
+                    <li class=" position-static {{ $ongletActif === 'about' ? 'active' : '' }}">
+                        <a href="{{ route('about_link') }}">Qui sommes-nous ?</a>
                     </li>
-                    <li class="with-megamenu has-menu-child-item">
+                    <li class="with-megamenu has-menu-child-item {{ $ongletActif === 'service' ? 'active' : '' }}">
                         <a href="#">Nos Services<i class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-2">
@@ -223,11 +223,11 @@
                                 <div class="row row--15">
                                     <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="blog-details.html">Développement logiciel & web</a></li>
-                                            <li><a href="post-format-standard.html">Data engineering / Data science</a></li>
-                                            <li><a href="post-format-gallery.html">Cloud & DevOps</a></li>
-                                            <li><a href="#">Conseil IT / transformation digitale</a></li>
-                                            <li><a href="#">Recrutement & sous-traitance</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'developpemet-logiciel-web-mobile']) }}">Développement logiciel & web</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'data-engineering-&-science']) }}">Data engineering / Data science</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'cloud-&-devops']) }}">Cloud & DevOps</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'conseil-it-transformation-digital']) }}">Conseil IT / transformation digitale</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'recrutement-&-sous-traitance']) }}">Recrutement & sous-traitance</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -235,25 +235,15 @@
                         </div>
                         <!-- End Mega Menu  -->
                     </li>
-
-                    <li class="has-dropdown has-menu-child-item">
-                        <a href="#">Recrutement
-                            <i class="feather-chevron-down"></i>
-                        </a>
-                        <ul class="submenu">
-                            <li class="has-dropdown"><a href="#">Emplois</a></li>
-                            <li class="has-dropdown"><a href="#">Freelance</a></li>
-                        </ul>
-                    </li>
-                    <li class=" position-static">
-                        <a href="#">Actualités</a>
+                    <li class="position-static {{ $ongletActif === 'rejoindre' ? 'active' : '' }}">
+                        <a href="{{ route('rejoindre_link') }}" >Nous rejoindre </a>
                     </li>
                 </ul>
             </nav>
 
             <div class="mobile-menu-bottom">
                 <div class="rbt-btn-wrapper mb--20">
-                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="#">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="{{ route('contact_link') }}">
                         <span>Nous contacter</span>
                     </a>
                 </div>

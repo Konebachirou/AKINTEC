@@ -19,8 +19,7 @@
                     <div class="inner">
                         <h4 class="title">Appelez-nous</h4>
                         <p><a href="tel:+33753303635">+33 7 53 30 36 35</a></p>
-                        <p><a href="tel:+33753303635">+33 7 53 30 36 35</a></p>
-                        <p><a href="tel:+33753303635">+33 7 53 30 36 35</a></p>
+                        <p><a href="tel:+33758134003">+33 7 58 13 40 03</a></p>
                     </div>
                 </div>
             </div>

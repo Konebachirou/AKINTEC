@@ -224,10 +224,10 @@
                                     <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
                                         <ul class="mega-menu-item">
                                             <li><a href="{{ route('services_link', ['service' => 'developpemet-logiciel-web-mobile']) }}">Développement logiciel & web</a></li>
-                                            <li><a href="{{ route('services_link', ['service' => 'data-engineering-&-science']) }}">Data engineering / Data science</a></li>
-                                            <li><a href="{{ route('services_link', ['service' => 'cloud-&-devops']) }}">Cloud & DevOps</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'data-engineering-et-science']) }}">Data engineering / Data science</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'cloud-et-devops']) }}">Cloud & DevOps</a></li>
                                             <li><a href="{{ route('services_link', ['service' => 'conseil-it-transformation-digital']) }}">Conseil IT / transformation digitale</a></li>
-                                            <li><a href="{{ route('services_link', ['service' => 'recrutement-&-sous-traitance']) }}">Recrutement & sous-traitance</a></li>
+                                            <li><a href="{{ route('services_link', ['service' => 'recrutement-et-sous-traitance']) }}">Recrutement & sous-traitance</a></li>
                                         </ul>
                                     </div>
                                 </div>

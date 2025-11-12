@@ -18,22 +18,7 @@
 
     <meta name="google-site-verification" content="yElaI9rLLHM-sx46aWWS4hoWU7ZFh6NaGMoRCwpHL_Q" />
     
-    <!-- 🏢 Données structurées (affichage du logo sur Google) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "AKINTEC – Conseil & Ingénierie Numérique",
-        "url": "https://akintec.fr",
-        "logo": "https://akintec.fr/assets/images/logo/logo-ak.png",
-        "description": "AKINTEC est une ESN écoresponsable spécialisée dans la transformation digitale, le conseil IT et le développement logiciel.",
-        "sameAs": [
-        "https://www.linkedin.com/company/akintec-fr",
-        "https://twitter.com",
-        "https://facebook.com"
-        ]
-    }
-    </script>
+
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo/favicon-no-bg.png') }}">

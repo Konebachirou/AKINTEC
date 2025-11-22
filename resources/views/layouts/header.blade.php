@@ -31,7 +31,7 @@
                                                 <i class="feather-instagram"></i>
                                             </a>
                                         </li>
-                                        <li><a href="https://www.linkdin.com/">
+                                        <li><a href="https://www.linkedin.com/company/akintec-fr">
                                                 <i class="feather-linkedin"></i>
                                             </a>
                                         </li>
@@ -263,7 +263,7 @@
                                 <i class="feather-instagram"></i>
                             </a>
                         </li>
-                        <li><a href="https://www.linkdin.com/">
+                        <li><a href="https://www.linkedin.com/company/akintec-fr">
                                 <i class="feather-linkedin"></i>
                             </a>
                         </li>
